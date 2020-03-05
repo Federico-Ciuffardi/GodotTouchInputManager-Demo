@@ -1,3 +1,5 @@
+<img src="https://i.imgur.com/qWrJ7h7.png" align="right" />
+
 # GodotTouchInputManager-Demo
 A simple demo that shows how to use the [Godot Touch Input Manager](https://github.com/Federico-Ciuffardi/Godot-Touch-Input-Manager) and its capabilities.
 
