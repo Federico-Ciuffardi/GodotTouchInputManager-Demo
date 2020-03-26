@@ -9,35 +9,35 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "InputEventAction",
+"base": "Reference",
 "class": "InputEventMultiScreenDrag",
 "language": "GDScript",
-"path": "res://Godot-Touch-Input-Manager-0.5.3/CustomInputEvents/InputEventMultiScreenDrag.gd"
+"path": "res://Godot-Touch-Input-Manager-1.0.0/CustomInputEvents/InputEventMultiScreenDrag.gd"
 }, {
-"base": "InputEventAction",
+"base": "Reference",
 "class": "InputEventScreenPinch",
 "language": "GDScript",
-"path": "res://Godot-Touch-Input-Manager-0.5.3/CustomInputEvents/InputEventScreenPinch.gd"
+"path": "res://Godot-Touch-Input-Manager-1.0.0/CustomInputEvents/InputEventScreenPinch.gd"
 }, {
-"base": "InputEventAction",
+"base": "Reference",
 "class": "InputEventScreenTwist",
 "language": "GDScript",
-"path": "res://Godot-Touch-Input-Manager-0.5.3/CustomInputEvents/InputEventScreenTwist.gd"
+"path": "res://Godot-Touch-Input-Manager-1.0.0/CustomInputEvents/InputEventScreenTwist.gd"
 }, {
-"base": "InputEventAction",
+"base": "Reference",
 "class": "InputEventSingleScreenDrag",
 "language": "GDScript",
-"path": "res://Godot-Touch-Input-Manager-0.5.3/CustomInputEvents/InputEventSingleScreenDrag.gd"
+"path": "res://Godot-Touch-Input-Manager-1.0.0/CustomInputEvents/InputEventSingleScreenDrag.gd"
 }, {
-"base": "InputEventAction",
+"base": "Reference",
 "class": "InputEventSingleScreenTap",
 "language": "GDScript",
-"path": "res://Godot-Touch-Input-Manager-0.5.3/CustomInputEvents/InputEventSingleScreenTap.gd"
+"path": "res://Godot-Touch-Input-Manager-1.0.0/CustomInputEvents/InputEventSingleScreenTap.gd"
 }, {
-"base": "InputEventAction",
+"base": "Reference",
 "class": "InputEventSingleScreenTouch",
 "language": "GDScript",
-"path": "res://Godot-Touch-Input-Manager-0.5.3/CustomInputEvents/InputEventSingleScreenTouch.gd"
+"path": "res://Godot-Touch-Input-Manager-1.0.0/CustomInputEvents/InputEventSingleScreenTouch.gd"
 } ]
 _global_script_class_icons={
 "InputEventMultiScreenDrag": "",
@@ -55,7 +55,7 @@ run/main_scene="res://Demo.tscn"
 
 [autoload]
 
-InputManager="*res://Godot-Touch-Input-Manager-0.5.3/InputManager.gd"
+InputManager="*res://Godot-Touch-Input-Manager-1.0.0/InputManager.gd"
 
 [display]
 
