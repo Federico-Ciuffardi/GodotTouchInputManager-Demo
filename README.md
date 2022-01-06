@@ -8,7 +8,7 @@ The demo displays the detected gestures at the top and more detailed info at the
 ![Demo](https://media.giphy.com/media/TimI1xvghKrM20Xmhy/giphy.gif)
 
 ## Versioning
-Using [SemVer](http://semver.org/) for versioning. For the versions available, see the [releases](https://github.com/Federico-Ciuffardi/IOSU/releases) 
+Using [SemVer](http://semver.org/) for versioning. For the versions available, see the [releases](https://github.com/Federico-Ciuffardi/GodotTouchInputManager-Demo/releases) 
 
 ## Authors
 * Federico Ciuffardi
