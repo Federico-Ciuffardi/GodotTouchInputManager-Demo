@@ -12,40 +12,64 @@ _global_script_classes=[ {
 "base": "Reference",
 "class": "InputEventMultiScreenDrag",
 "language": "GDScript",
-"path": "res://GDTIM-v1_1_0/CustomInputEvents/InputEventMultiScreenDrag.gd"
+"path": "res://GDTIM-v2_0_0-beta/CustomInputEvents/InputEventMultiScreenDrag.gd"
+}, {
+"base": "Reference",
+"class": "InputEventMultiScreenSwipe",
+"language": "GDScript",
+"path": "res://GDTIM-v2_0_0-beta/CustomInputEvents/InputEventMultiScreenSwipe.gd"
+}, {
+"base": "Reference",
+"class": "InputEventMultiScreenTap",
+"language": "GDScript",
+"path": "res://GDTIM-v2_0_0-beta/CustomInputEvents/InputEventMultiScreenTap.gd"
 }, {
 "base": "Reference",
 "class": "InputEventScreenPinch",
 "language": "GDScript",
-"path": "res://GDTIM-v1_1_0/CustomInputEvents/InputEventScreenPinch.gd"
+"path": "res://GDTIM-v2_0_0-beta/CustomInputEvents/InputEventScreenPinch.gd"
 }, {
 "base": "Reference",
 "class": "InputEventScreenTwist",
 "language": "GDScript",
-"path": "res://GDTIM-v1_1_0/CustomInputEvents/InputEventScreenTwist.gd"
+"path": "res://GDTIM-v2_0_0-beta/CustomInputEvents/InputEventScreenTwist.gd"
 }, {
 "base": "Reference",
 "class": "InputEventSingleScreenDrag",
 "language": "GDScript",
-"path": "res://GDTIM-v1_1_0/CustomInputEvents/InputEventSingleScreenDrag.gd"
+"path": "res://GDTIM-v2_0_0-beta/CustomInputEvents/InputEventSingleScreenDrag.gd"
+}, {
+"base": "Reference",
+"class": "InputEventSingleScreenSwipe",
+"language": "GDScript",
+"path": "res://GDTIM-v2_0_0-beta/CustomInputEvents/InputEventSingleScreenSwipe.gd"
 }, {
 "base": "Reference",
 "class": "InputEventSingleScreenTap",
 "language": "GDScript",
-"path": "res://GDTIM-v1_1_0/CustomInputEvents/InputEventSingleScreenTap.gd"
+"path": "res://GDTIM-v2_0_0-beta/CustomInputEvents/InputEventSingleScreenTap.gd"
 }, {
 "base": "Reference",
 "class": "InputEventSingleScreenTouch",
 "language": "GDScript",
-"path": "res://GDTIM-v1_1_0/CustomInputEvents/InputEventSingleScreenTouch.gd"
+"path": "res://GDTIM-v2_0_0-beta/CustomInputEvents/InputEventSingleScreenTouch.gd"
+}, {
+"base": "InputEventAction",
+"class": "RawGesture",
+"language": "GDScript",
+"path": "res://GDTIM-v2_0_0-beta/RawGesture.gd"
 } ]
 _global_script_class_icons={
 "InputEventMultiScreenDrag": "",
+"InputEventMultiScreenSwipe": "",
+"InputEventMultiScreenTap": "",
 "InputEventScreenPinch": "",
 "InputEventScreenTwist": "",
 "InputEventSingleScreenDrag": "",
+"InputEventSingleScreenSwipe": "",
 "InputEventSingleScreenTap": "",
-"InputEventSingleScreenTouch": ""
+"InputEventSingleScreenTouch": "",
+"RawGesture": ""
 }
 
 [application]
@@ -55,12 +79,22 @@ run/main_scene="res://Demo.tscn"
 
 [autoload]
 
-InputManager="*res://GDTIM-v1_1_0/InputManager.gd"
+InputManager="*res://GDTIM-v2_0_0-beta/InputManager.gd"
+
+[debug]
+
+gdscript/warnings/return_value_discarded=false
 
 [display]
 
 window/size/width=1920
 window/size/height=1080
+
+[global]
+
+android=false
+simul=false
+input=false
 
 [input_devices]
 

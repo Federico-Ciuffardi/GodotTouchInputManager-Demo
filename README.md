@@ -5,7 +5,7 @@ A simple demo that shows how to use the [Godot Touch Input Manager](https://gith
 
 The demo displays the detected gestures at the top and more detailed info at the bottom.
 
-![Demo](https://media.giphy.com/media/TimI1xvghKrM20Xmhy/giphy.gif)
+![Demo](https://media.giphy.com/media/wnMStTBUdhQcnXLXpB/giphy.gif)
 
 ## Versioning
 Using [SemVer](http://semver.org/) for versioning. For the versions available, see the [releases](https://github.com/Federico-Ciuffardi/GodotTouchInputManager-Demo/releases) 
