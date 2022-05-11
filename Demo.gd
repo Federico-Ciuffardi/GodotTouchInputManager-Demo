@@ -10,10 +10,12 @@ func _input(event):
 	if (event is InputEventMultiScreenDrag or
 		event is InputEventMultiScreenSwipe or
 		event is InputEventMultiScreenTap or
+		event is InputEventMultiScreenLongPress or
 		event is InputEventSingleScreenDrag or
 		event is InputEventScreenPinch or
 		event is InputEventScreenTwist or
 		event is InputEventSingleScreenTap or
+		event is InputEventSingleScreenLongPress or
 		event is InputEventSingleScreenTouch or
 		event is InputEventSingleScreenSwipe):
 			label.text = event.as_text().replace('|','\n') 
@@ -21,9 +23,11 @@ func _input(event):
 	if event is InputEventMultiScreenDrag:
 		label2.text = "Multiple finger drag"
 	elif event is InputEventMultiScreenSwipe:
-		label2.text = "Multi finger swipe"
+		label2.text = "Multiple finger swipe"
 	elif event is InputEventMultiScreenTap:
-		label2.text = "Multi finger tap"
+		label2.text = "Multiple finger tap"
+	elif event is InputEventMultiScreenLongPress:
+		label2.text = "Multiple finger long press"
 	elif event is InputEventSingleScreenDrag:
 		label2.text = "Single finger drag"
 	elif event is InputEventSingleScreenSwipe:
@@ -32,6 +36,8 @@ func _input(event):
 		label2.text = "Pinch"
 	elif event is InputEventScreenTwist:
 		label2.text = "Twist"
+	elif event is InputEventSingleScreenLongPress:
+		label2.text = "Single finger long press"
 	elif event is InputEventSingleScreenTap:
 		label2.text = "Single finger tap"
 	elif event is InputEventSingleScreenTouch:
