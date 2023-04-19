@@ -1,7 +1,7 @@
 extends Node2D
 
-onready var label = $Label
-onready var label2 = $Label2
+@onready var label = $Label
+@onready var label2 = $Label2
 # onready var label3 = $Label3
 # onready var label4 = $Label4
 # onready var label5 = $Label5
