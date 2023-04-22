@@ -18,7 +18,7 @@ func _input(event):
 		event is InputEventSingleScreenLongPress or
 		event is InputEventSingleScreenTouch or
 		event is InputEventSingleScreenSwipe):
-			label.text = event.as_text().replace('|','\n') 
+			label.text = event.as_string().replace('|','\n') 
 
 	if event is InputEventMultiScreenDrag:
 		label2.text = "Multiple finger drag"
