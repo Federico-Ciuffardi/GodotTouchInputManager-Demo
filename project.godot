@@ -21,7 +21,6 @@ InputManager="*res://GDTIM-vgodot4support/InputManager.gd"
 [debug]
 
 gdscript/warnings/return_value_discarded=false
-gdscript/warnings/native_method_override=1
 
 [display]
 
