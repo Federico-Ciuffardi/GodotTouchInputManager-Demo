@@ -17,7 +17,8 @@ func _input(event):
 		event is InputEventSingleScreenTap or
 		event is InputEventSingleScreenLongPress or
 		event is InputEventSingleScreenTouch or
-		event is InputEventSingleScreenSwipe):
+		event is InputEventSingleScreenSwipe or
+		event is InputEventScreenCancel):
 			label.text = event.as_string().replace('|','\n') 
 
 	if event is InputEventMultiScreenDrag:
@@ -42,6 +43,8 @@ func _input(event):
 		label2.text = "Single finger tap"
 	elif event is InputEventSingleScreenTouch:
 		label2.text = "Single finger touch"
+	elif event is InputEventScreenCancel:
+		label2.text = "Cancel"
 
 	# if event is RawGesture:
 	# 	label3.text = "State now:\n" + event.as_text()
