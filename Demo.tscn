@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://c5mvq01d2wxhm"]
 
 [ext_resource type="Script" path="res://Demo.gd" id="1"]
-[ext_resource type="FontFile" path="res://fonts/top.tres" id="2"]
-[ext_resource type="FontFile" path="res://fonts/bottom.tres" id="3"]
+[ext_resource type="FontFile" uid="uid://c1w6lof772ck7" path="res://fonts/top.tres" id="2"]
+[ext_resource type="FontFile" uid="uid://dcojfhh0vr3o4" path="res://fonts/bottom.tres" id="3"]
 
 [node name="Demo" type="Node2D"]
 position = Vector2(2, 1)
@@ -14,6 +14,7 @@ offset_top = 174.0
 offset_right = 263.0
 offset_bottom = 259.0
 theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 35
 
 [node name="Label2" type="Label" parent="."]
 offset_left = 4.45139
@@ -21,6 +22,7 @@ offset_top = 9.26056
 offset_right = 927.451
 offset_bottom = 174.261
 theme_override_fonts/font = ExtResource("3")
+theme_override_font_sizes/font_size = 120
 text = "Try the gestures!"
 
 [node name="Label3" type="Label" parent="."]
@@ -29,6 +31,7 @@ offset_top = 815.0
 offset_right = 963.0
 offset_bottom = 1076.0
 theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 35
 
 [node name="Label4" type="Label" parent="."]
 offset_left = 963.0
@@ -36,6 +39,7 @@ offset_top = 808.0
 offset_right = 1908.0
 offset_bottom = 1065.0
 theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 35
 
 [node name="Label5" type="Label" parent="."]
 offset_left = 1351.0
@@ -43,3 +47,4 @@ offset_top = 20.0
 offset_right = 1912.0
 offset_bottom = 785.0
 theme_override_fonts/font = ExtResource("2")
+theme_override_font_sizes/font_size = 35
